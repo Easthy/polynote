@@ -48,19 +48,19 @@ You can build the project from source using [SBT](https://www.scala-sbt.org/). F
 
 ## Here are some screenshots showcasing the functionality of the Polynote SQL fork:
 
-- **CLI Interface**:
+- **CLI Interface**:  
   ![CLI Interface](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/cli.png)
 
-- **Available Interpreters**:
+- **Available Interpreters**:  
   ![Available Interpreters](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/interpretators.png)
 
-- **Matplotlib Visualization**:
+- **Matplotlib Visualization**:  
   ![Matplotlib Visualization](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/matplotlib.png)
 
-- **Plotly Visualization**:
+- **Plotly Visualization**:  
   ![Plotly Visualization](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/plotly.png)
 
-- **TkAgg Backend**:
+- **TkAgg Backend**:  
   ![TkAgg Backend](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/tk_agg.png)
 
 ## Contributing
