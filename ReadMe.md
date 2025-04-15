@@ -37,7 +37,44 @@ Make sure to replace the placeholder values with your actual database credential
 
 ## Building from Source
 
-You can build the project from source using [SBT](https://www.scala-sbt.org/). Follow the instructions in the official Polynote documentation for installation: [Polynote Installation Guide](https://polynote.org/latest/docs/installation/).
+You can build the project from source using [SBT](https://www.scala-sbt.org/). To create the assembly JAR files, run the following command:
+
+```bash
+sbt assembly
+```
+
+You should see output similar to this:
+
+```
+[info] welcome to sbt 1.10.0 (Ubuntu Java 11.0.19)
+[info] loading settings for project polynote-build from plugins.sbt ...
+[info] loading project definition from /home/east/prjct/polynote/project
+[info] loading settings for project polynote from build.sbt ...
+[info] set current project to polynote (in build file:/home/east/prjct/polynote/)
+...
+[info] Assembly jar up to date: /home/east/prjct/polynote/target/scala-2.12/polynote-assembly-0.6.1.jar
+[info] Assembly jar up to date: /home/east/prjct/polynote/polynote-env/target/scala-2.12/polynote-env-assembly-0.6.1.jar
+[info] compiling 1 Scala source to /home/east/prjct/polynote/polynote-runtime/target/scala-2.12/classes ...
+[info] 1 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)
+[info] Built: /home/east/prjct/polynote/polynote-runtime/target/scala-2.12/polynote-runtime-assembly-0.6.1.jar
+[info] Jar hash: 84657163c2ed47613265bafb1fffe7b15749f366
+[info] Assembly jar up to date: /home/east/prjct/polynote/polynote-kernel/target/scala-2.12/polynote-kernel-assembly-0.6.1.jar
+[info] Assembly jar up to date: /home/east/prjct/polynote/polynote-spark-runtime/target/scala-2.12/polynote-spark-runtime-assembly-0.6.1.jar
+[info] Assembly jar up to date: /home/east/prjct/polynote/polynote-server/target/scala-2.12/polynote-server-assembly-0.6.1.jar
+[info] Assembly jar up to date: /home/east/prjct/polynote/polynote-spark/target/scala-2.12/polynote-spark-assembly-0.6.1.jar
+[success] Total time: 7 s, completed Apr 15, 2025, 7:23:08 PM
+```
+
+After building the project, copy the following files to `polynote-fork/polynote-sql-compiled/deps/2.12/`:
+
+- `polynote-kernel/target/scala-2.12/polynote-kernel-assembly-0.6.1.jar`
+- `polynote-runtime/target/scala-2.12/polynote-runtime-assembly-0.6.1.jar`
+- `polynote-server/target/scala-2.12/polynote-server-assembly-0.6.1.jar`
+
+Follow the instructions in the official Polynote documentation for installation: [Polynote Installation Guide](https://polynote.org/latest/docs/installation/).
+
+
+Feel free to insert this block into your README.md file!
 
 ## Usage
 
