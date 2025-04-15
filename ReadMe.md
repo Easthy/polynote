@@ -15,9 +15,9 @@ This repository contains a fork of [Polynote](https://github.com/polynote/polyno
 
 ## Implementation Details
 
-1. **SQL Interpreter Registration**: In the file `polynote-kernel/src/main/scala/polynote/kernel/interpreter/`, the SQL interpreter has been registered by adding the entry `"sql" -> SQLInterpreter.Factory`.
+1. **SQL Interpreter Registration**: In the file `polynote-sql-source/polynote-kernel/src/main/scala/polynote/kernel/interpreter/`, the SQL interpreter has been registered by adding the entry `"sql" -> SQLInterpreter.Factory`.
    
-2. **SQL Interpreter Class**: The SQL interpreter class has been implemented in `polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala`. While the solution may not be the most elegant, it is functional and works as intended.
+2. **SQL Interpreter Class**: The SQL interpreter class has been implemented in `polynote-sql-source/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala`. While the solution may not be the most elegant, it is functional and works as intended.
 
 ## Configuration
 
@@ -45,6 +45,23 @@ You can build the project from source using [SBT](https://www.scala-sbt.org/). F
 2. Navigate to the `polynote-sql-compiled` folder and run the compiled Polynote.
 3. Modify the `config.yml` file with your database connection details.
 4. Launch Polynote and start executing SQL queries in your notebooks.
+
+## Here are some screenshots showcasing the functionality of the Polynote SQL fork:
+
+- **CLI Interface**:
+  ![CLI Interface](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/cli.png)
+
+- **Available Interpreters**:
+  ![Available Interpreters](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/interpretators.png)
+
+- **Matplotlib Visualization**:
+  ![Matplotlib Visualization](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/matplotlib.png)
+
+- **Plotly Visualization**:
+  ![Plotly Visualization](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/plotly.png)
+
+- **TkAgg Backend**:
+  ![TkAgg Backend](https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/tk_agg.png)
 
 ## Contributing
 
