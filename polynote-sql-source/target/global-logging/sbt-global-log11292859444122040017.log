@@ -1,0 +1,450 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.10.0 (Ubuntu Java 11.0.19)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 109.846212ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 80.444973ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.287806ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/east/prjct/polynote/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 5.918979ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/east/prjct/polynote/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 14.636448 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project polynote-build from plugins.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(polynote-build) took 46.567898ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id polynote-build, base: /home/east/prjct/polynote/project, plugins: List(<none>))) took 84.104694ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/east/prjct/polynote/project, returning: (polynote-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 734.995484ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 7.263523ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/east/prjct/polynote/project/, ...) took 827.93951ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 1010.64732ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 5.511727ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 64.210305ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 6.295687ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 385.258334ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 107.301037ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 1.30519ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/east/prjct/polynote/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 2832.350205ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.004944ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/east/prjct/polynote[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 0.21968ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project polynote w/ remaining polynote-macros,polynote-runtime,polynote-spark-runtime,polynote-spark,polynote-env,polynote-kernel,polynote-server[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbtmavenresolver.MavenResolverPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 3.333065 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project polynote from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(polynote) took 11.246802ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id polynote, base: /home/east/prjct/polynote, aggregate: List(LocalProject(polynote-env), LocalProject(polynote-runtime), LocalProject(polynote-spark-runtime), LocalProject(polynote-kernel), LocalProject(polynote-server), LocalProject(polynote-spark)), plugins: List(<none>))) took 15.776323ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project polynote-macros @ /home/east/prjct/polynote/polynote-macros[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbtmavenresolver.MavenResolverPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.432222 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(polynote-macros) took 1.029641ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project polynote-runtime @ /home/east/prjct/polynote/polynote-runtime[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbtbuildinfo.BuildInfoPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbtbuildinfo.BuildInfoPlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbtmavenresolver.MavenResolverPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.137898 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(polynote-runtime) took 7.661596ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project polynote-spark-runtime @ /home/east/prjct/polynote/polynote-spark-runtime[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbtmavenresolver.MavenResolverPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.830343 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(polynote-spark-runtime) took 1.636234ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project polynote-spark @ /home/east/prjct/polynote/polynote-spark[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbtmavenresolver.MavenResolverPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.126621 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(polynote-spark) took 1.105145ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project polynote-env @ /home/east/prjct/polynote/polynote-env[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbtmavenresolver.MavenResolverPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.261536 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(polynote-env) took 1.421454ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project polynote-kernel @ /home/east/prjct/polynote/polynote-kernel[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbtmavenresolver.MavenResolverPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.706665 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(polynote-kernel) took 1.881756ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project polynote-server @ /home/east/prjct/polynote/polynote-server[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtbuildinfo.BuildInfoPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtmavenresolver.MavenResolverPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbtmavenresolver.MavenResolverPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbtmavenresolver.MavenResolverPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,scoverage.ScoverageSbtPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,xerial.sbt.Sonatype,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.305318 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(polynote-server) took 1.381339ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/east/prjct/polynote, returning: (polynote, polynote-macros, polynote-runtime, polynote-spark-runtime, polynote-spark, polynote-env, polynote-kernel, polynote-server)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 318.416375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 0.592314ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/home/east/prjct/polynote/, ...) took 3152.764351ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 3175.626063ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 1.304192ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 74.594221ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 1.734771ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 1115.863743ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 229.558076ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.00224ms[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to polynote (in build file:/home/east/prjct/polynote/)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere are 14 keys that are not used by any other settings/tasks:[0m
+[0m[[0m[33mwarn[0m] [0m[0m [0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote / circeVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:121[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote / circeYamlVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:122[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-env / circeVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:121[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-env / circeYamlVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:122[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-macros / circeVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:121[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-macros / circeYamlVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:122[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-runtime / circeVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:121[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-runtime / circeYamlVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:122[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-server / circeVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:121[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-server / circeYamlVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:122[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-spark / circeVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:121[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-spark / circeYamlVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:122[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-spark-runtime / circeVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:121[0m
+[0m[[0m[33mwarn[0m] [0m[0m* polynote-spark-runtime / circeYamlVersion[0m
+[0m[[0m[33mwarn[0m] [0m[0m  +- /home/east/prjct/polynote/build.sbt:122[0m
+[0m[[0m[33mwarn[0m] [0m[0m [0m
+[0m[[0m[33mwarn[0m] [0m[0mnote: a setting might still be used by a command; to exclude a key from this `lintUnused` check[0m
+[0m[[0m[33mwarn[0m] [0m[0meither append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(assembly, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: polynote-spark / assembly, polynote-env / assembly, polynote-spark-runtime / assembly, polynote-kernel / assembly, polynote-runtime / assembly, polynote-server / assembly, assembly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: /home/east/prjct/polynote/target/scala-2.12/polynote-assembly-0.6.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: 2b49a748da0170d5e64bef4c828bccb23121cd9e[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/east/prjct/polynote/polynote-macros/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /home/east/prjct/polynote/polynote-env/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.15. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 10.704s.[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 13 Scala sources and 1 Java source to /home/east/prjct/polynote/polynote-runtime/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m5 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: /home/east/prjct/polynote/polynote-env/target/scala-2.12/polynote-env-assembly-0.6.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: d1154f34322519f1c611f9ba3838a1af9399be62[0m
+[0m[[0m[33mwarn[0m] [0m[0mone feature warning; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0m1 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 57 Scala sources to /home/east/prjct/polynote/polynote-kernel/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: /home/east/prjct/polynote/polynote-runtime/target/scala-2.12/polynote-runtime-assembly-0.6.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: 7d6c8c3b0f3773631c7850ee4ed572600589b1b6[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/CoreInterpreters.scala:11:29: value Factory is not a member of object polynote.kernel.interpreter.sql.SQLInterpreter[0m
+[0m[[0m[31merror[0m] [0m[0m    "sql" -> SQLInterpreter.Factory[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/sql/SQLInterpreter.scala:14:97: value attempt is not a member of object zio.ZIO[0m
+[0m[[0m[31merror[0m] [0m[0m  private def initConnection(jdbcUrl: String, user: String, password: String): Task[Unit] = ZIO.attempt {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/sql/SQLInterpreter.scala:19:79: value attempt is not a member of object zio.ZIO[0m
+[0m[[0m[31merror[0m] [0m[0m  private def executeQuery(query: String): Task[List[Map[String, Any]]] = ZIO.attempt {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/sql/SQLInterpreter.scala:42:21: value logInfo is not a member of object zio.ZIO[0m
+[0m[[0m[31merror[0m] [0m[0m      _      <- ZIO.logInfo(s"Query executed successfully: $code")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/sql/SQLInterpreter.scala:43:19: value withValue is not a member of polynote.kernel.interpreter.State[0m
+[0m[[0m[31merror[0m] [0m[0m    } yield state.withValue("result", result)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/sql/SQLInterpreter.scala:47:45: value attempt is not a member of object zio.ZIO[0m
+[0m[[0m[31merror[0m] [0m[0m  override def shutdown(): Task[Unit] = ZIO.attempt {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-cli#commons-cli;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from public, Failed to read artifact descriptor for commons-cli:commons-cli:jar:1.2[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-cli#commons-cli;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from local-preloaded, Failed to read artifact descriptor for commons-cli:commons-cli:jar:1.2[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-cli#commons-cli;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from Apache Staging, Failed to read artifact descriptor for commons-cli:commons-cli:jar:1.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m	module not found: commons-cli#commons-cli;1.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.ivy2/local/commons-cli/commons-cli/1.2/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local-preloaded-ivy: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.sbt/preloaded/commons-cli/commons-cli/1.2/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: org.apache.httpcomponents#httpclient;4.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from public, Failed to read artifact descriptor for org.apache.httpcomponents:httpclient:jar:4.5.2[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: org.apache.httpcomponents#httpclient;4.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from local-preloaded, Failed to read artifact descriptor for org.apache.httpcomponents:httpclient:jar:4.5.2[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: org.apache.httpcomponents#httpclient;4.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from Apache Staging, Failed to read artifact descriptor for org.apache.httpcomponents:httpclient:jar:4.5.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m	module not found: org.apache.httpcomponents#httpclient;4.5.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.ivy2/local/org.apache.httpcomponents/httpclient/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local-preloaded-ivy: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.sbt/preloaded/org.apache.httpcomponents/httpclient/4.5.2/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-codec#commons-codec;1.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from public, Failed to read artifact descriptor for commons-codec:commons-codec:jar:1.11[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-codec#commons-codec;1.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from local-preloaded, Failed to read artifact descriptor for commons-codec:commons-codec:jar:1.11[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-codec#commons-codec;1.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from Apache Staging, Failed to read artifact descriptor for commons-codec:commons-codec:jar:1.11[0m
+[0m[[0m[33mwarn[0m] [0m[0m	module not found: commons-codec#commons-codec;1.11[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.ivy2/local/commons-codec/commons-codec/1.11/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local-preloaded-ivy: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.sbt/preloaded/commons-codec/commons-codec/1.11/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-io#commons-io;2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from public, Failed to read artifact descriptor for commons-io:commons-io:jar:2.5[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-io#commons-io;2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from local-preloaded, Failed to read artifact descriptor for commons-io:commons-io:jar:2.5[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-io#commons-io;2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from Apache Staging, Failed to read artifact descriptor for commons-io:commons-io:jar:2.5[0m
+[0m[[0m[33mwarn[0m] [0m[0m	module not found: commons-io#commons-io;2.5[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.ivy2/local/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local-preloaded-ivy: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.sbt/preloaded/commons-io/commons-io/2.5/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-collections#commons-collections;3.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from public, Failed to read artifact descriptor for commons-collections:commons-collections:jar:3.2.2[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-collections#commons-collections;3.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from local-preloaded, Failed to read artifact descriptor for commons-collections:commons-collections:jar:3.2.2[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: commons-collections#commons-collections;3.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from Apache Staging, Failed to read artifact descriptor for commons-collections:commons-collections:jar:3.2.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m	module not found: commons-collections#commons-collections;3.2.2[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.ivy2/local/commons-collections/commons-collections/3.2.2/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local-preloaded-ivy: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.sbt/preloaded/commons-collections/commons-collections/3.2.2/ivys/ivy.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: org.eclipse.jetty#jetty-servlet;9.3.24.v20180605 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from public, Failed to read artifact descriptor for org.eclipse.jetty:jetty-servlet:jar:9.3.24.v20180605[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: org.eclipse.jetty#jetty-servlet;9.3.24.v20180605 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from local-preloaded, Failed to read artifact descriptor for org.eclipse.jetty:jetty-servlet:jar:9.3.24.v20180605[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: org.eclipse.jetty#jetty-servlet;9.3.24.v20180605 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from Apache Staging, Failed to read artifact descriptor for org.eclipse.jetty:jetty-servlet:jar:9.3.24.v20180605[0m
+[0m[[0m[33mwarn[0m] [0m[0m	module not found: org.eclipse.jetty#jetty-servlet;9.3.24.v20180605[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.ivy2/local/org.eclipse.jetty/jetty-servlet/9.3.24.v20180605/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local-preloaded-ivy: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.sbt/preloaded/org.eclipse.jetty/jetty-servlet/9.3.24.v20180605/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: com.fasterxml.jackson.core#jackson-annotations;2.9.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from public, Failed to read artifact descriptor for com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: com.fasterxml.jackson.core#jackson-annotations;2.9.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from local-preloaded, Failed to read artifact descriptor for com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5[0m
+[0m[[0m[0minfo[0m] [0m[0mFailed to read descriptor dependency: com.fasterxml.jackson.core#jackson-annotations;2.9.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} from Apache Staging, Failed to read artifact descriptor for com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5[0m
+[0m[[0m[33mwarn[0m] [0m[0m	module not found: com.fasterxml.jackson.core#jackson-annotations;2.9.5[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.9.5/ivys/ivy.xml[0m
+[0m[[0m[33mwarn[0m] [0m[0m==== local-preloaded-ivy: tried[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/east/.sbt/preloaded/com.fasterxml.jackson.core/jackson-annotations/2.9.5/ivys/ivy.xml[0m

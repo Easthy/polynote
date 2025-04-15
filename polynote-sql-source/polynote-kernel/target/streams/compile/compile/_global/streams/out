@@ -1,0 +1,30 @@
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala:37:12: object config is not a member of package zio[0m
+[0m[[0m[31merror[0m] [0m[0mimport zio.config.typesafe.TypesafeConfig[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala:38:12: object config is not a member of package zio[0m
+[0m[[0m[31merror[0m] [0m[0mimport zio.config._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala:52:19: not found: type ConfigDescriptor[0m
+[0m[[0m[31merror[0m] [0m[0m  val descriptor: ConfigDescriptor[DatabaseConfig] = descriptor[DatabaseConfig][0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala:77:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : zio.URIO[zio.Has[polynote.kernel.interpreter.python.DatabaseConfig],polynote.kernel.interpreter.python.DatabaseConfig][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  zio.ZIO[zio.Has[polynote.kernel.interpreter.python.DatabaseConfig],Nothing,polynote.kernel.interpreter.python.DatabaseConfig][0m
+[0m[[0m[31merror[0m] [0m[0m required: zio.RIO[polynote.kernel.environment.Config,polynote.kernel.interpreter.python.DatabaseConfig][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  zio.ZIO[zio.Has[polynote.config.PolynoteConfig],Throwable,polynote.kernel.interpreter.python.DatabaseConfig][0m
+[0m[[0m[31merror[0m] [0m[0m    ZIO.service[DatabaseConfig][0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala:121:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : zio.ZIO[polynote.kernel.environment.Config,Throwable,SQLInterpreter.this.PythonState][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  zio.ZIO[zio.Has[polynote.config.PolynoteConfig],Throwable,SQLInterpreter.this.PythonState][0m
+[0m[[0m[31merror[0m] [0m[0m required: zio.RIO[polynote.kernel.InterpreterEnv,polynote.kernel.interpreter.State][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  zio.ZIO[zio.Has[zio.blocking.Blocking.Service] with zio.Has[polynote.kernel.util.Publish[Any,Nothing,polynote.kernel.Result]] with zio.Has[polynote.kernel.util.Publish[Any,Nothing,polynote.kernel.KernelStatusUpdate]] with zio.Has[zio.ZRefM[Any,Any,Nothing,Nothing,polynote.kernel.TaskInfo,polynote.kernel.TaskInfo]] with zio.Has[polynote.runtime.KernelRuntime],Throwable,polynote.kernel.interpreter.State][0m
+[0m[[0m[31merror[0m] [0m[0m      dbConfig <- getDatabaseConfig[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala:167:5: not found: value TypesafeConfig[0m
+[0m[[0m[31merror[0m] [0m[0m    TypesafeConfig.fromDefaultLoader(DatabaseConfig.descriptor)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/east/prjct/polynote/polynote-kernel/src/main/scala/polynote/kernel/interpreter/python/SQLInterpreter.scala:172:51: Cannot prove that zio.Has[polynote.kernel.interpreter.python.DatabaseConfig] <:< polynote.kernel.ScalaCompiler.Provider.[0m
+[0m[[0m[31merror[0m] [0m[0m      interp  <- SQLInterpreter(venv).provideLayer(configLayer)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

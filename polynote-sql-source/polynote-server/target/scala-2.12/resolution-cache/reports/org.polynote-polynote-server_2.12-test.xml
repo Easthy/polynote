@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.polynote"
+		module="polynote-server_2.12"
+		revision="0.6.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scala-doc-tool, scoveragePlugin"
+		date="20241128134730"/>
+	<dependencies>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.2" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.2.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.2.xml.original"/>
+				<caller organisation="com.github.alexarchambault" name="argonaut-shapeless_6.2_2.12" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.3" callerrev="1.2.0-M11"/>
+				<caller organisation="io.circe" name="circe-generic_2.12" conf="default, compile, runtime, master" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.10" callerrev="0.14.3"/>
+				<caller organisation="org.scodec" name="scodec-core_2.12" conf="default, compile, runtime, master" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.3" callerrev="1.11.4"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="com.chuusai:shapeless_2.12:jar:2.3.2 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="2829843" time="0" location="/home/east/.ivy2/maven-cache/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml.original"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.2"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.typelevel:macro-compat_2.12:jar:1.1.1 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="3180" time="0" location="/home/east/.ivy2/maven-cache/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.12.15" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang/scalap/ivy-2.12.15.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang/scalap/ivy-2.12.15.xml.original"/>
+				<caller organisation="org.scalameta" name="scalameta_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.6.0"/>
+				<artifacts>
+					<artifact name="scalap" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scala-lang:scalap:jar:2.12.15 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="513135" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/scalap/2.12.15/scalap-2.12.15.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.polynote" name="polynote-kernel_2.12">
+			<revision name="0.6.1" status="integration" pubdate="20241128133813" resolver="inter-project" artresolver="inter-project" homepage="https://polynote.org" downloaded="false" searched="false" default="false" conf="test, compile, runtime" position="16">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.6.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamock" name="scalamock_2.12">
+			<revision name="4.4.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="75">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalamock/scalamock_2.12/ivy-4.4.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalamock/scalamock_2.12/ivy-4.4.0.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="4.4.0" rev-constraint-default="4.4.0" rev-constraint-dynamic="4.4.0" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scalamock_2.12-4.4.0" type="jar" ext="jar" status="successful" details="org.scalamock:scalamock_2.12:jar:4.4.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="915052" time="0" location="/home/east/.ivy2/maven-cache/org/scalamock/scalamock_2.12/4.4.0/scalamock_2.12-4.4.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazon.redshift" name="redshift-jdbc42">
+			<revision name="2.1.0.9" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="70">
+				<license name="Apache License, Version 2.0" url="https://github.com/aws/amazon-redshift-jdbc-driver/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.amazon.redshift/redshift-jdbc42/ivy-2.1.0.9.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.amazon.redshift/redshift-jdbc42/ivy-2.1.0.9.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="2.1.0.9" rev-constraint-default="2.1.0.9" rev-constraint-dynamic="2.1.0.9" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="redshift-jdbc42-2.1.0.9" type="jar" ext="jar" status="successful" details="com.amazon.redshift:redshift-jdbc42:jar:2.1.0.9 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1030207" time="0" location="/home/east/.ivy2/maven-cache/com/amazon/redshift/redshift-jdbc42/2.1.0.9/redshift-jdbc42-2.1.0.9.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.postgresql" name="postgresql">
+			<revision name="42.6.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="69">
+				<license name="BSD-2-Clause" url="https://jdbc.postgresql.org/about/license.html"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.postgresql/postgresql/ivy-42.6.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.postgresql/postgresql/ivy-42.6.0.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="42.6.0" rev-constraint-default="42.6.0" rev-constraint-dynamic="42.6.0" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="postgresql-42.6.0" type="jar" ext="jar" status="successful" details="org.postgresql:postgresql:jar:42.6.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1081604" time="0" location="/home/east/.ivy2/maven-cache/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.javaparser" name="javaparser-symbol-solver-core">
+			<revision name="3.25.5" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-3.0.html"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.github.javaparser/javaparser-symbol-solver-core/ivy-3.25.5.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.github.javaparser/javaparser-symbol-solver-core/ivy-3.25.5.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="3.25.5" rev-constraint-default="3.25.5" rev-constraint-dynamic="3.25.5" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="javaparser-symbol-solver-core-3.25.5" type="jar" ext="jar" status="successful" details="com.github.javaparser:javaparser-symbol-solver-core:jar:3.25.5 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="457916" time="0" location="/home/east/.ivy2/maven-cache/com/github/javaparser/javaparser-symbol-solver-core/3.25.5/javaparser-symbol-solver-core-3.25.5.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="32.1.2-jre" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.google.guava/guava/ivy-32.1.2-jre.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.google.guava/guava/ivy-32.1.2-jre.xml.original"/>
+				<caller organisation="com.github.javaparser" name="javaparser-symbol-solver-core" conf="default, compile, runtime, master" rev="32.1.2-jre" rev-constraint-default="32.1.2-jre" rev-constraint-dynamic="32.1.2-jre" callerrev="3.25.5"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" extra-classifier="" status="successful" details="com.google.guava:guava:jar:32.1.2-jre &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="3041591" time="0" location="/home/east/.ivy2/maven-cache/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="2.8" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.google.j2objc/j2objc-annotations/ivy-2.8.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.google.j2objc/j2objc-annotations/ivy-2.8.xml.original"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="32.1.2-jre"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="jar" ext="jar" extra-classifier="" status="successful" details="com.google.j2objc:j2objc-annotations:jar:2.8 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="9301" time="0" location="/home/east/.ivy2/maven-cache/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.18.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.google.errorprone/error_prone_annotations/ivy-2.18.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.google.errorprone/error_prone_annotations/ivy-2.18.0.xml.original"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="2.18.0" rev-constraint-default="2.18.0" rev-constraint-dynamic="2.18.0" callerrev="32.1.2-jre"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="jar" ext="jar" extra-classifier="" status="successful" details="com.google.errorprone:error_prone_annotations:jar:2.18.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="16017" time="0" location="/home/east/.ivy2/maven-cache/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-qual">
+			<revision name="3.33.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.checkerframework/checker-qual/ivy-3.33.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.checkerframework/checker-qual/ivy-3.33.0.xml.original"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="3.33.0" rev-constraint-default="3.33.0" rev-constraint-dynamic="3.33.0" callerrev="32.1.2-jre"/>
+				<caller organisation="org.postgresql" name="postgresql" conf="default, compile, runtime, master" rev="3.31.0" rev-constraint-default="3.31.0" rev-constraint-dynamic="3.31.0" callerrev="42.6.0"/>
+				<artifacts>
+					<artifact name="checker-qual" type="jar" ext="jar" extra-classifier="" status="successful" details="org.checkerframework:checker-qual:jar:3.33.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="223979" time="0" location="/home/east/.ivy2/maven-cache/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.31.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.33.0"/>
+				<caller organisation="org.postgresql" name="postgresql" conf="default, compile, runtime, master" rev="3.31.0" rev-constraint-default="3.31.0" rev-constraint-dynamic="3.31.0" callerrev="42.6.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.2.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.2.xml.original"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="32.1.2-jre"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" extra-classifier="" status="successful" details="com.google.code.findbugs:jsr305:jar:3.0.2 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="19936" time="0" location="/home/east/.ivy2/maven-cache/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="listenablefuture">
+			<revision name="9999.0-empty-to-avoid-conflict-with-guava" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.google.guava/listenablefuture/ivy-9999.0-empty-to-avoid-conflict-with-guava.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.google.guava/listenablefuture/ivy-9999.0-empty-to-avoid-conflict-with-guava.xml.original"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="9999.0-empty-to-avoid-conflict-with-guava" rev-constraint-default="9999.0-empty-to-avoid-conflict-with-guava" rev-constraint-dynamic="9999.0-empty-to-avoid-conflict-with-guava" callerrev="32.1.2-jre"/>
+				<artifacts>
+					<artifact name="listenablefuture" type="jar" ext="jar" extra-classifier="" status="successful" details="com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="2199" time="0" location="/home/east/.ivy2/maven-cache/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="failureaccess">
+			<revision name="1.0.1" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.google.guava/failureaccess/ivy-1.0.1.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.google.guava/failureaccess/ivy-1.0.1.xml.original"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="32.1.2-jre"/>
+				<artifacts>
+					<artifact name="failureaccess" type="jar" ext="jar" extra-classifier="" status="successful" details="com.google.guava:failureaccess:jar:1.0.1 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="4617" time="0" location="/home/east/.ivy2/maven-cache/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.29.2-GA" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.javassist/javassist/ivy-3.29.2-GA.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.javassist/javassist/ivy-3.29.2-GA.xml.original"/>
+				<caller organisation="com.github.javaparser" name="javaparser-symbol-solver-core" conf="default, compile, runtime, master" rev="3.29.2-GA" rev-constraint-default="3.29.2-GA" rev-constraint-dynamic="3.29.2-GA" callerrev="3.25.5"/>
+				<artifacts>
+					<artifact name="javassist" type="jar" ext="jar" extra-classifier="" status="successful" details="org.javassist:javassist:jar:3.29.2-GA &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="794137" time="0" location="/home/east/.ivy2/maven-cache/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.javaparser" name="javaparser-core">
+			<revision name="3.25.5" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="59">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-3.0.html"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.github.javaparser/javaparser-core/ivy-3.25.5.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.github.javaparser/javaparser-core/ivy-3.25.5.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="3.25.5" rev-constraint-default="3.25.5" rev-constraint-dynamic="3.25.5" callerrev="0.6.1"/>
+				<caller organisation="com.github.javaparser" name="javaparser-symbol-solver-core" conf="default, compile, runtime, master" rev="3.25.5" rev-constraint-default="3.25.5" rev-constraint-dynamic="3.25.5" callerrev="3.25.5"/>
+				<artifacts>
+					<artifact name="javaparser-core" type="jar" ext="jar" extra-classifier="" status="successful" details="com.github.javaparser:javaparser-core:jar:3.25.5 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1390792" time="0" location="/home/east/.ivy2/maven-cache/com/github/javaparser/javaparser-core/3.25.5/javaparser-core-3.25.5.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.py4j" name="py4j">
+			<revision name="0.10.7" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+				<license name="The New BSD License" url="http://www.opensource.org/licenses/bsd-license.html"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/net.sf.py4j/py4j/ivy-0.10.7.xml" searched="true" original-local-location="/home/east/.ivy2/cache/net.sf.py4j/py4j/ivy-0.10.7.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.10.7" rev-constraint-default="0.10.7" rev-constraint-dynamic="0.10.7" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="py4j-0.10.7" type="jar" ext="jar" status="successful" details="net.sf.py4j:py4j:jar:0.10.7 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="122774" time="0" location="/home/east/.ivy2/maven-cache/net/sf/py4j/py4j/0.10.7/py4j-0.10.7.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-parser_2.12">
+			<revision name="0.14.3" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-parser_2.12/ivy-0.14.3.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-parser_2.12/ivy-0.14.3.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="circe-parser_2.12-0.14.3" type="jar" ext="jar" status="successful" details="io.circe:circe-parser_2.12:jar:0.14.3 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="2769" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-parser_2.12/0.14.3/circe-parser_2.12-0.14.3.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-jawn_2.12">
+			<revision name="0.14.3" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.14.3.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-jawn_2.12/ivy-0.14.3.xml.original"/>
+				<caller organisation="io.circe" name="circe-parser_2.12" conf="default, compile, runtime, master" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<artifacts>
+					<artifact name="circe-jawn_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.circe:circe-jawn_2.12:jar:0.14.3 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="30763" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-jawn_2.12/0.14.3/circe-jawn_2.12-0.14.3.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-generic-extras_2.12">
+			<revision name="0.14.3" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-generic-extras_2.12/ivy-0.14.3.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-generic-extras_2.12/ivy-0.14.3.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="circe-generic-extras_2.12-0.14.3" type="jar" ext="jar" status="successful" details="io.circe:circe-generic-extras_2.12:jar:0.14.3 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="167188" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-generic-extras_2.12/0.14.3/circe-generic-extras_2.12-0.14.3.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="jawn-parser_2.12">
+			<revision name="1.4.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.typelevel/jawn-parser_2.12/ivy-1.4.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.typelevel/jawn-parser_2.12/ivy-1.4.0.xml.original"/>
+				<caller organisation="io.circe" name="circe-jawn_2.12" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.14.3"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.typelevel:jawn-parser_2.12:jar:1.4.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="87585" time="0" location="/home/east/.ivy2/maven-cache/org/typelevel/jawn-parser_2.12/1.4.0/jawn-parser_2.12-1.4.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-generic_2.12">
+			<revision name="0.14.3" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="53">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-generic_2.12/ivy-0.14.3.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-generic_2.12/ivy-0.14.3.xml.original"/>
+				<caller organisation="io.circe" name="circe-generic-extras_2.12" conf="default, compile, runtime, master" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="circe-generic_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.circe:circe-generic_2.12:jar:0.14.3 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="173835" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-generic_2.12/0.14.3/circe-generic_2.12-0.14.3.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-yaml_2.12">
+			<revision name="0.15.2" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="46">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-yaml_2.12/ivy-0.15.2.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-yaml_2.12/ivy-0.15.2.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.15.2" rev-constraint-default="0.15.2" rev-constraint-dynamic="0.15.2" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="circe-yaml_2.12-0.15.2" type="jar" ext="jar" status="successful" details="io.circe:circe-yaml_2.12:jar:0.15.2 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="88155" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-yaml_2.12/0.15.2/circe-yaml_2.12-0.15.2.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="2.2" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.yaml/snakeyaml/ivy-2.2.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.yaml/snakeyaml/ivy-2.2.xml.original"/>
+				<caller organisation="io.circe" name="circe-yaml_2.12" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.15.2"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="jar" ext="jar" extra-classifier="" status="successful" details="org.yaml:snakeyaml:jar:2.2 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="334352" time="0" location="/home/east/.ivy2/maven-cache/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-yaml-common_2.12">
+			<revision name="0.15.2" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-yaml-common_2.12/ivy-0.15.2.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-yaml-common_2.12/ivy-0.15.2.xml.original"/>
+				<caller organisation="io.circe" name="circe-yaml_2.12" conf="default, compile, runtime, master" rev="0.15.2" rev-constraint-default="0.15.2" rev-constraint-dynamic="0.15.2" callerrev="0.15.2"/>
+				<artifacts>
+					<artifact name="circe-yaml-common_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.circe:circe-yaml-common_2.12:jar:0.15.2 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="24024" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-yaml-common_2.12/0.15.2/circe-yaml-common_2.12-0.15.2.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-core_2.12">
+			<revision name="0.14.7" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-core_2.12/ivy-0.14.7.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-core_2.12/ivy-0.14.7.xml.original"/>
+				<caller organisation="io.circe" name="circe-generic_2.12" conf="default, compile, runtime, master" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<caller organisation="io.circe" name="circe-parser_2.12" conf="default, compile, runtime, master" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<caller organisation="io.circe" name="circe-jawn_2.12" conf="compile, runtime" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<caller organisation="io.circe" name="circe-yaml-common_2.12" conf="compile, runtime" rev="0.14.7" rev-constraint-default="0.14.7" rev-constraint-dynamic="0.14.7" callerrev="0.15.2"/>
+				<artifacts>
+					<artifact name="circe-core_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.circe:circe-core_2.12:jar:0.14.7 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1409655" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-core_2.12/0.14.7/circe-core_2.12-0.14.7.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.14.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.14.7"/>
+				<caller organisation="io.circe" name="circe-generic_2.12" conf="default, compile, runtime, master" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<caller organisation="io.circe" name="circe-parser_2.12" conf="default, compile, runtime, master" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<caller organisation="io.circe" name="circe-jawn_2.12" conf="compile, runtime" rev="0.14.3" rev-constraint-default="0.14.3" rev-constraint-dynamic="0.14.3" callerrev="0.14.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.12">
+			<revision name="2.10.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-2.10.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-2.10.0.xml.original"/>
+				<caller organisation="io.circe" name="circe-core_2.12" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.14.7"/>
+				<artifacts>
+					<artifact name="cats-core_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.typelevel:cats-core_2.12:jar:2.10.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="5952987" time="0" location="/home/east/.ivy2/maven-cache/org/typelevel/cats-core_2.12/2.10.0/cats-core_2.12-2.10.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.12">
+			<revision name="2.10.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-2.10.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-2.10.0.xml.original"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.typelevel:cats-kernel_2.12:jar:2.10.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="3311251" time="0" location="/home/east/.ivy2/maven-cache/org/typelevel/cats-kernel_2.12/2.10.0/cats-kernel_2.12-2.10.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-numbers_2.12">
+			<revision name="0.14.7" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.circe/circe-numbers_2.12/ivy-0.14.7.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.circe/circe-numbers_2.12/ivy-0.14.7.xml.original"/>
+				<caller organisation="io.circe" name="circe-core_2.12" conf="compile, runtime" rev="0.14.7" rev-constraint-default="0.14.7" rev-constraint-dynamic="0.14.7" callerrev="0.14.7"/>
+				<artifacts>
+					<artifact name="circe-numbers_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.circe:circe-numbers_2.12:jar:0.14.7 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="12788" time="0" location="/home/east/.ivy2/maven-cache/io/circe/circe-numbers_2.12/0.14.7/circe-numbers_2.12-0.14.7.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.9.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.9.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.9.0.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12-0.9.0" type="jar" ext="jar" status="successful" details="org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1171396" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.classgraph" name="classgraph">
+			<revision name="4.8.47" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+				<license name="The MIT License (MIT)" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.github.classgraph/classgraph/ivy-4.8.47.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.github.classgraph/classgraph/ivy-4.8.47.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="4.8.47" rev-constraint-default="4.8.47" rev-constraint-dynamic="4.8.47" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="classgraph-4.8.47" type="jar" ext="jar" status="successful" details="io.github.classgraph:classgraph:jar:4.8.47 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="467217" time="0" location="/home/east/.ivy2/maven-cache/io/github/classgraph/classgraph/4.8.47/classgraph-4.8.47.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.get-coursier" name="coursier_2.12">
+			<revision name="2.0.0-RC5-6" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.get-coursier/coursier_2.12/ivy-2.0.0-RC5-6.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.get-coursier/coursier_2.12/ivy-2.0.0-RC5-6.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="2.0.0-RC5-6" rev-constraint-default="2.0.0-RC5-6" rev-constraint-dynamic="2.0.0-RC5-6" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="coursier_2.12-2.0.0-RC5-6" type="jar" ext="jar" status="successful" details="io.get-coursier:coursier_2.12:jar:2.0.0-RC5-6 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="470895" time="0" location="/home/east/.ivy2/maven-cache/io/get-coursier/coursier_2.12/2.0.0-RC5-6/coursier_2.12-2.0.0-RC5-6.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.alexarchambault" name="argonaut-shapeless_6.2_2.12">
+			<revision name="1.2.0-M11" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="BSD-3-Clause" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.github.alexarchambault/argonaut-shapeless_6.2_2.12/ivy-1.2.0-M11.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.github.alexarchambault/argonaut-shapeless_6.2_2.12/ivy-1.2.0-M11.xml.original"/>
+				<caller organisation="io.get-coursier" name="coursier_2.12" conf="default, compile, runtime, master" rev="1.2.0-M11" rev-constraint-default="1.2.0-M11" rev-constraint-dynamic="1.2.0-M11" callerrev="2.0.0-RC5-6"/>
+				<artifacts>
+					<artifact name="argonaut-shapeless_6.2_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="com.github.alexarchambault:argonaut-shapeless_6.2_2.12:jar:1.2.0-M11 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="91713" time="0" location="/home/east/.ivy2/maven-cache/com/github/alexarchambault/argonaut-shapeless_6.2_2.12/1.2.0-M11/argonaut-shapeless_6.2_2.12-1.2.0-M11.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.argonaut" name="argonaut_2.12">
+			<revision name="6.2.3" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="BSD-3-Clause" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.argonaut/argonaut_2.12/ivy-6.2.3.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.argonaut/argonaut_2.12/ivy-6.2.3.xml.original"/>
+				<caller organisation="com.github.alexarchambault" name="argonaut-shapeless_6.2_2.12" conf="compile, runtime" rev="6.2.3" rev-constraint-default="6.2.3" rev-constraint-dynamic="6.2.3" callerrev="1.2.0-M11"/>
+				<artifacts>
+					<artifact name="argonaut_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.argonaut:argonaut_2.12:jar:6.2.3 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="795086" time="0" location="/home/east/.ivy2/maven-cache/io/argonaut/argonaut_2.12/6.2.3/argonaut_2.12-6.2.3.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.get-coursier" name="coursier-cache_2.12">
+			<revision name="2.0.0-RC5-6" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="41">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.get-coursier/coursier-cache_2.12/ivy-2.0.0-RC5-6.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.get-coursier/coursier-cache_2.12/ivy-2.0.0-RC5-6.xml.original"/>
+				<caller organisation="io.get-coursier" name="coursier_2.12" conf="default, compile, runtime, master" rev="2.0.0-RC5-6" rev-constraint-default="2.0.0-RC5-6" rev-constraint-dynamic="2.0.0-RC5-6" callerrev="2.0.0-RC5-6"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="2.0.0-RC5-6" rev-constraint-default="2.0.0-RC5-6" rev-constraint-dynamic="2.0.0-RC5-6" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="coursier-cache_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.get-coursier:coursier-cache_2.12:jar:2.0.0-RC5-6 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="858031" time="0" location="/home/east/.ivy2/maven-cache/io/get-coursier/coursier-cache_2.12/2.0.0-RC5-6/coursier-cache_2.12-2.0.0-RC5-6.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.get-coursier" name="coursier-core_2.12">
+			<revision name="2.0.0-RC5-6" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.get-coursier/coursier-core_2.12/ivy-2.0.0-RC5-6.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.get-coursier/coursier-core_2.12/ivy-2.0.0-RC5-6.xml.original"/>
+				<caller organisation="io.get-coursier" name="coursier_2.12" conf="default, compile, runtime, master" rev="2.0.0-RC5-6" rev-constraint-default="2.0.0-RC5-6" rev-constraint-dynamic="2.0.0-RC5-6" callerrev="2.0.0-RC5-6"/>
+				<artifacts>
+					<artifact name="coursier-core_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.get-coursier:coursier-core_2.12:jar:2.0.0-RC5-6 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1159009" time="0" location="/home/east/.ivy2/maven-cache/io/get-coursier/coursier-core_2.12/2.0.0-RC5-6/coursier-core_2.12-2.0.0-RC5-6.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.get-coursier" name="coursier-util_2.12">
+			<revision name="2.0.0-RC5-6" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/io.get-coursier/coursier-util_2.12/ivy-2.0.0-RC5-6.xml" searched="true" original-local-location="/home/east/.ivy2/cache/io.get-coursier/coursier-util_2.12/ivy-2.0.0-RC5-6.xml.original"/>
+				<caller organisation="io.get-coursier" name="coursier-cache_2.12" conf="compile, runtime" rev="2.0.0-RC5-6" rev-constraint-default="2.0.0-RC5-6" rev-constraint-dynamic="2.0.0-RC5-6" callerrev="2.0.0-RC5-6"/>
+				<caller organisation="io.get-coursier" name="coursier-core_2.12" conf="compile, runtime" rev="2.0.0-RC5-6" rev-constraint-default="2.0.0-RC5-6" rev-constraint-dynamic="2.0.0-RC5-6" callerrev="2.0.0-RC5-6"/>
+				<artifacts>
+					<artifact name="coursier-util_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="io.get-coursier:coursier-util_2.12:jar:2.0.0-RC5-6 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="479963" time="0" location="/home/east/.ivy2/maven-cache/io/get-coursier/coursier-util_2.12/2.0.0-RC5-6/coursier-util_2.12-2.0.0-RC5-6.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scodec" name="scodec-core_2.12">
+			<revision name="1.11.4" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<license name="Three-clause BSD-style" url="https://github.com/scodec/scodec/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scodec/scodec-core_2.12/ivy-1.11.4.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scodec/scodec-core_2.12/ivy-1.11.4.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="1.11.4" rev-constraint-default="1.11.4" rev-constraint-dynamic="1.11.4" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scodec-core_2.12-1.11.4" type="jar" ext="jar" status="successful" details="org.scodec:scodec-core_2.12:jar:1.11.4 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="916834" time="0" location="/home/east/.ivy2/maven-cache/org/scodec/scodec-core_2.12/1.11.4/scodec-core_2.12-1.11.4.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scodec" name="scodec-bits_2.12">
+			<revision name="1.1.12" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Three-clause BSD-style" url="https://github.com/scodec/scodec-bits/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scodec/scodec-bits_2.12/ivy-1.1.12.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scodec/scodec-bits_2.12/ivy-1.1.12.xml.original"/>
+				<caller organisation="org.scodec" name="scodec-core_2.12" conf="default, compile, runtime, master" rev="1.1.12" rev-constraint-default="1.1.12" rev-constraint-dynamic="1.1.12" callerrev="1.11.4"/>
+				<artifacts>
+					<artifact name="scodec-bits_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scodec:scodec-bits_2.12:jar:1.1.12 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="245612" time="0" location="/home/east/.ivy2/maven-cache/org/scodec/scodec-bits_2.12/1.1.12/scodec-bits_2.12-1.1.12.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="semanticdb-scalac-core_2.12.15">
+			<revision name="4.6.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/main/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalameta/semanticdb-scalac-core_2.12.15/ivy-4.6.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalameta/semanticdb-scalac-core_2.12.15/ivy-4.6.0.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="4.6.0" rev-constraint-default="4.6.0" rev-constraint-dynamic="4.6.0" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="semanticdb-scalac-core_2.12.15-4.6.0" type="jar" ext="jar" status="successful" details="org.scalameta:semanticdb-scalac-core_2.12.15:jar:4.6.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="297328" time="0" location="/home/east/.ivy2/maven-cache/org/scalameta/semanticdb-scalac-core_2.12.15/4.6.0/semanticdb-scalac-core_2.12.15-4.6.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="scalameta_2.12">
+			<revision name="4.6.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/main/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalameta/scalameta_2.12/ivy-4.6.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalameta/scalameta_2.12/ivy-4.6.0.xml.original"/>
+				<caller organisation="org.scalameta" name="semanticdb-scalac-core_2.12.15" conf="default, compile, runtime, master" rev="4.6.0" rev-constraint-default="4.6.0" rev-constraint-dynamic="4.6.0" callerrev="4.6.0"/>
+				<artifacts>
+					<artifact name="scalameta_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scalameta:scalameta_2.12:jar:4.6.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="806405" time="0" location="/home/east/.ivy2/maven-cache/org/scalameta/scalameta_2.12/4.6.0/scalameta_2.12-4.6.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="parsers_2.12">
+			<revision name="4.6.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/main/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalameta/parsers_2.12/ivy-4.6.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalameta/parsers_2.12/ivy-4.6.0.xml.original"/>
+				<caller organisation="org.scalameta" name="scalameta_2.12" conf="compile, runtime" rev="4.6.0" rev-constraint-default="4.6.0" rev-constraint-dynamic="4.6.0" callerrev="4.6.0"/>
+				<artifacts>
+					<artifact name="parsers_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scalameta:parsers_2.12:jar:4.6.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1277070" time="0" location="/home/east/.ivy2/maven-cache/org/scalameta/parsers_2.12/4.6.0/parsers_2.12-4.6.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="trees_2.12">
+			<revision name="4.6.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/main/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalameta/trees_2.12/ivy-4.6.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalameta/trees_2.12/ivy-4.6.0.xml.original"/>
+				<caller organisation="org.scalameta" name="parsers_2.12" conf="compile, runtime" rev="4.6.0" rev-constraint-default="4.6.0" rev-constraint-dynamic="4.6.0" callerrev="4.6.0"/>
+				<artifacts>
+					<artifact name="trees_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scalameta:trees_2.12:jar:4.6.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="4451197" time="0" location="/home/east/.ivy2/maven-cache/org/scalameta/trees_2.12/4.6.0/trees_2.12-4.6.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="fastparse-v2_2.12">
+			<revision name="2.3.1" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalameta/fastparse-v2_2.12/ivy-2.3.1.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalameta/fastparse-v2_2.12/ivy-2.3.1.xml.original"/>
+				<caller organisation="org.scalameta" name="trees_2.12" conf="compile, runtime" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="4.6.0"/>
+				<artifacts>
+					<artifact name="fastparse-v2_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scalameta:fastparse-v2_2.12:jar:2.3.1 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="318673" time="0" location="/home/east/.ivy2/maven-cache/org/scalameta/fastparse-v2_2.12/2.3.1/fastparse-v2_2.12-2.3.1.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="geny_2.12">
+			<revision name="0.6.5" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.lihaoyi/geny_2.12/ivy-0.6.5.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.lihaoyi/geny_2.12/ivy-0.6.5.xml.original"/>
+				<caller organisation="org.scalameta" name="fastparse-v2_2.12" conf="compile, runtime" rev="0.6.5" rev-constraint-default="0.6.5" rev-constraint-dynamic="0.6.5" callerrev="2.3.1"/>
+				<artifacts>
+					<artifact name="geny_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="com.lihaoyi:geny_2.12:jar:0.6.5 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="85316" time="0" location="/home/east/.ivy2/maven-cache/com/lihaoyi/geny_2.12/0.6.5/geny_2.12-0.6.5.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalameta" name="common_2.12">
+			<revision name="4.6.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/main/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalameta/common_2.12/ivy-4.6.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalameta/common_2.12/ivy-4.6.0.xml.original"/>
+				<caller organisation="org.scalameta" name="trees_2.12" conf="compile, runtime" rev="4.6.0" rev-constraint-default="4.6.0" rev-constraint-dynamic="4.6.0" callerrev="4.6.0"/>
+				<artifacts>
+					<artifact name="common_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scalameta:common_2.12:jar:4.6.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="2365209" time="0" location="/home/east/.ivy2/maven-cache/org/scalameta/common_2.12/4.6.0/common_2.12-4.6.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12">
+			<revision name="0.11.11" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.thesamet.scalapb/scalapb-runtime_2.12/ivy-0.11.11.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.thesamet.scalapb/scalapb-runtime_2.12/ivy-0.11.11.xml.original"/>
+				<caller organisation="org.scalameta" name="common_2.12" conf="compile, runtime" rev="0.11.11" rev-constraint-default="0.11.11" rev-constraint-dynamic="0.11.11" callerrev="4.6.0"/>
+				<artifacts>
+					<artifact name="scalapb-runtime_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="com.thesamet.scalapb:scalapb-runtime_2.12:jar:0.11.11 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="2385622" time="0" location="/home/east/.ivy2/maven-cache/com/thesamet/scalapb/scalapb-runtime_2.12/0.11.11/scalapb-runtime_2.12-0.11.11.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.19.2" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.19.2.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.19.2.xml.original"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="3.19.2" rev-constraint-default="3.19.2" rev-constraint-dynamic="3.19.2" callerrev="0.11.11"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="jar" ext="jar" extra-classifier="" status="successful" details="com.google.protobuf:protobuf-java:jar:3.19.2 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1681866" time="0" location="/home/east/.ivy2/maven-cache/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="lenses_2.12">
+			<revision name="0.11.11" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.thesamet.scalapb/lenses_2.12/ivy-0.11.11.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.thesamet.scalapb/lenses_2.12/ivy-0.11.11.xml.original"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="0.11.11" rev-constraint-default="0.11.11" rev-constraint-dynamic="0.11.11" callerrev="0.11.11"/>
+				<artifacts>
+					<artifact name="lenses_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="com.thesamet.scalapb:lenses_2.12:jar:0.11.11 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="35791" time="0" location="/home/east/.ivy2/maven-cache/com/thesamet/scalapb/lenses_2.12/0.11.11/lenses_2.12-0.11.11.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-collection-compat_2.12">
+			<revision name="2.7.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="28">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/ivy-2.7.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/ivy-2.7.0.xml.original"/>
+				<caller organisation="com.thesamet.scalapb" name="lenses_2.12" conf="compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="0.11.11"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="0.11.11"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scala-collection-compat_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scala-lang.modules:scala-collection-compat_2.12:jar:2.7.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="247466" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/modules/scala-collection-compat_2.12/2.7.0/scala-collection-compat_2.12-2.7.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<evicted-by rev="2.7.0"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.6.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.12">
+			<revision name="0.3.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.lihaoyi/sourcecode_2.12/ivy-0.3.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.lihaoyi/sourcecode_2.12/ivy-0.3.0.xml.original"/>
+				<caller organisation="org.scalameta" name="common_2.12" conf="compile, runtime" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="4.6.0"/>
+				<caller organisation="org.scalameta" name="fastparse-v2_2.12" conf="compile, runtime" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="2.3.1"/>
+				<artifacts>
+					<artifact name="sourcecode_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="com.lihaoyi:sourcecode_2.12:jar:0.3.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="114544" time="0" location="/home/east/.ivy2/maven-cache/com/lihaoyi/sourcecode_2.12/0.3.0/sourcecode_2.12-0.3.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.2.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.3.0"/>
+				<caller organisation="org.scalameta" name="fastparse-v2_2.12" conf="compile, runtime" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="2.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.polynote" name="polynote-env_2.12">
+			<revision name="0.6.1" status="integration" pubdate="20241128133813" resolver="inter-project" artresolver="inter-project" homepage="https://polynote.org" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="17">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.6.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.polynote" name="polynote-runtime_2.12">
+			<revision name="0.6.1" status="integration" pubdate="20241128133813" resolver="inter-project" artresolver="inter-project" homepage="https://polynote.org" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="13">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.6.1"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.6.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="black.ninia" name="jep">
+			<revision name="4.0.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="The zlib/libpng License" url="http://www.opensource.org/licenses/zlib-license.html"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/black.ninia/jep/ivy-4.0.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/black.ninia/jep/ivy-4.0.0.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-runtime_2.12" conf="compile" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="jep-4.0.0" type="jar" ext="jar" status="successful" details="black.ninia:jep:jar:4.0.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="161748" time="0" location="/home/east/.ivy2/maven-cache/black/ninia/jep/4.0.0/jep-4.0.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.polynote" name="polynote-macros_2.12">
+			<revision name="0.6.1" status="integration" pubdate="20241128133813" resolver="inter-project" artresolver="inter-project" homepage="https://polynote.org" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="14">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="org.polynote" name="polynote-runtime_2.12" conf="compile" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.6.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.12">
+			<revision name="3.0.8" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.0.8.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.0.8.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="3.0.8" rev-constraint-default="3.0.8" rev-constraint-dynamic="3.0.8" callerrev="0.6.1"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="3.0.8" rev-constraint-default="3.0.8" rev-constraint-dynamic="3.0.8" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scalatest_2.12-3.0.8" type="bundle" ext="jar" status="successful" details="org.scalatest:scalatest_2.12:jar:3.0.8 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="7546277" time="0" location="/home/east/.ivy2/maven-cache/org/scalatest/scalatest_2.12/3.0.8/scalatest_2.12-3.0.8.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.12">
+			<revision name="1.14.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="73">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalacheck/scalacheck_2.12/ivy-1.14.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalacheck/scalacheck_2.12/ivy-1.14.0.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="0.6.1"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scalacheck_2.12-1.14.0" type="jar" ext="jar" status="successful" details="org.scalacheck:scalacheck_2.12:jar:1.14.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="1178808" time="0" location="/home/east/.ivy2/maven-cache/org/scalacheck/scalacheck_2.12/1.14.0/scalacheck_2.12-1.14.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml.original"/>
+				<caller organisation="org.scalacheck" name="scalacheck_2.12" conf="default, compile, runtime, master" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.14.0"/>
+				<artifacts>
+					<artifact name="test-interface" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scala-sbt:test-interface:jar:1.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="14755" time="0" location="/home/east/.ivy2/maven-cache/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.2.0" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.2.0.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.2.0.xml.original"/>
+				<caller organisation="io.get-coursier" name="coursier-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="2.0.0-RC5-6"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.12.15"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="3.0.8"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scala-lang.modules:scala-xml_2.12:jar:1.2.0 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="556575" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.6" status="release" pubdate="19691231210000" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml.original"/>
+				<evicted-by rev="1.2.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.12.15"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.8" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.8.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.8.xml.original"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="3.0.8" rev-constraint-default="3.0.8" rev-constraint-dynamic="3.0.8" callerrev="3.0.8"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scalactic:scalactic_2.12:jar:3.0.8 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="722114" time="0" location="/home/east/.ivy2/maven-cache/org/scalactic/scalactic_2.12/3.0.8/scalactic_2.12-3.0.8.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.15" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="19">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.15.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.15.xml.original"/>
+				<caller organisation="org.scala-lang" name="scalap" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.12.15"/>
+				<caller organisation="org.scalameta" name="semanticdb-scalac-core_2.12.15" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.6.0"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scala-lang:scala-compiler:jar:2.12.15 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="10978529" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/scala-compiler/2.12.15/scala-compiler-2.12.15.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.15" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.15.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.15.xml.original"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="3.0.8"/>
+				<caller organisation="org.scalamock" name="scalamock_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.4.0"/>
+				<caller organisation="io.argonaut" name="argonaut_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="6.2.3"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.12.15"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="3.0.8"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scala-lang:scala-reflect:jar:2.12.15 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="3678167" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/scala-reflect/2.12.15/scala-reflect-2.12.15.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.25" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.25.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.25.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="slf4j-simple-1.7.25" type="jar" ext="jar" status="successful" details="org.slf4j:slf4j-simple:jar:1.7.25 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="15257" time="0" location="/home/east/.ivy2/maven-cache/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml.original"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" extra-classifier="" status="successful" details="org.slf4j:slf4j-api:jar:1.7.25 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="41203" time="0" location="/home/east/.ivy2/maven-cache/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter">
+			<revision name="0.34.32" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-yaml-front-matter/ivy-0.34.32.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark-ext-yaml-front-matter/ivy-0.34.32.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="flexmark-ext-yaml-front-matter-0.34.32" type="jar" ext="jar" status="successful" details="com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.34.32 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="16996" time="0" location="/home/east/.ivy2/maven-cache/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.32/flexmark-ext-yaml-front-matter-0.34.32.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-formatter">
+			<revision name="0.34.32" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark-formatter/ivy-0.34.32.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark-formatter/ivy-0.34.32.xml.original"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter" conf="default, compile, runtime, master" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.34.32"/>
+				<artifacts>
+					<artifact name="flexmark-formatter" type="jar" ext="jar" extra-classifier="" status="successful" details="com.vladsch.flexmark:flexmark-formatter:jar:0.34.32 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="94609" time="0" location="/home/east/.ivy2/maven-cache/com/vladsch/flexmark/flexmark-formatter/0.34.32/flexmark-formatter-0.34.32.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark">
+			<revision name="0.34.32" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="7">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark/ivy-0.34.32.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark/ivy-0.34.32.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.6.1"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter" conf="default, compile, runtime, master" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.34.32"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-formatter" conf="compile, runtime" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.34.32"/>
+				<artifacts>
+					<artifact name="flexmark" type="jar" ext="jar" extra-classifier="" status="successful" details="com.vladsch.flexmark:flexmark:jar:0.34.32 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="387827" time="0" location="/home/east/.ivy2/maven-cache/com/vladsch/flexmark/flexmark/0.34.32/flexmark-0.34.32.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vladsch.flexmark" name="flexmark-util">
+			<revision name="0.34.32" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 2-Clause License" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark-util/ivy-0.34.32.xml" searched="true" original-local-location="/home/east/.ivy2/cache/com.vladsch.flexmark/flexmark-util/ivy-0.34.32.xml.original"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-ext-yaml-front-matter" conf="default, compile, runtime, master" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.34.32"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark" conf="default, compile, runtime, master" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.34.32"/>
+				<caller organisation="com.vladsch.flexmark" name="flexmark-formatter" conf="compile, runtime" rev="0.34.32" rev-constraint-default="0.34.32" rev-constraint-dynamic="0.34.32" callerrev="0.34.32"/>
+				<artifacts>
+					<artifact name="flexmark-util" type="jar" ext="jar" extra-classifier="" status="successful" details="com.vladsch.flexmark:flexmark-util:jar:0.34.32 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="292499" time="0" location="/home/east/.ivy2/maven-cache/com/vladsch/flexmark/flexmark-util/0.34.32/flexmark-util-0.34.32.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.polynote" name="uzhttp_2.12">
+			<revision name="0.2.8" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.polynote/uzhttp_2.12/ivy-0.2.8.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.polynote/uzhttp_2.12/ivy-0.2.8.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="0.2.8" rev-constraint-default="0.2.8" rev-constraint-dynamic="0.2.8" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="uzhttp_2.12-0.2.8" type="jar" ext="jar" status="successful" details="org.polynote:uzhttp_2.12:jar:0.2.8 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="341021" time="0" location="/home/east/.ivy2/maven-cache/org/polynote/uzhttp_2.12/0.2.8/uzhttp_2.12-0.2.8.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dev.zio" name="zio-streams_2.12">
+			<revision name="1.0.11" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/dev.zio/zio-streams_2.12/ivy-1.0.11.xml" searched="true" original-local-location="/home/east/.ivy2/cache/dev.zio/zio-streams_2.12/ivy-1.0.11.xml.original"/>
+				<caller organisation="org.polynote" name="uzhttp_2.12" conf="default, compile, runtime, master" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="0.2.8"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="zio-streams_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="dev.zio:zio-streams_2.12:jar:1.0.11 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="588485" time="0" location="/home/east/.ivy2/maven-cache/dev/zio/zio-streams_2.12/1.0.11/zio-streams_2.12-1.0.11.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dev.zio" name="zio_2.12">
+			<revision name="1.0.11" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/dev.zio/zio_2.12/ivy-1.0.11.xml" searched="true" original-local-location="/home/east/.ivy2/cache/dev.zio/zio_2.12/ivy-1.0.11.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-env_2.12" conf="compile" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="0.6.1"/>
+				<caller organisation="dev.zio" name="zio-streams_2.12" conf="compile, runtime" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="1.0.11"/>
+				<caller organisation="org.polynote" name="uzhttp_2.12" conf="default, compile, runtime, master" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="0.2.8"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="zio_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="dev.zio:zio_2.12:jar:1.0.11 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="2720145" time="0" location="/home/east/.ivy2/maven-cache/dev/zio/zio_2.12/1.0.11/zio_2.12-1.0.11.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dev.zio" name="izumi-reflect_2.12">
+			<revision name="1.1.3" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/dev.zio/izumi-reflect_2.12/ivy-1.1.3.xml" searched="true" original-local-location="/home/east/.ivy2/cache/dev.zio/izumi-reflect_2.12/ivy-1.1.3.xml.original"/>
+				<caller organisation="dev.zio" name="zio_2.12" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0.11"/>
+				<artifacts>
+					<artifact name="izumi-reflect_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="dev.zio:izumi-reflect_2.12:jar:1.1.3 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="482334" time="0" location="/home/east/.ivy2/maven-cache/dev/zio/izumi-reflect_2.12/1.1.3/izumi-reflect_2.12-1.1.3.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dev.zio" name="izumi-reflect-thirdparty-boopickle-shaded_2.12">
+			<revision name="1.1.3" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/dev.zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/ivy-1.1.3.xml" searched="true" original-local-location="/home/east/.ivy2/cache/dev.zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/ivy-1.1.3.xml.original"/>
+				<caller organisation="dev.zio" name="izumi-reflect_2.12" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.1.3"/>
+				<artifacts>
+					<artifact name="izumi-reflect-thirdparty-boopickle-shaded_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="dev.zio:izumi-reflect-thirdparty-boopickle-shaded_2.12:jar:1.1.3 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="95077" time="0" location="/home/east/.ivy2/maven-cache/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/1.1.3/izumi-reflect-thirdparty-boopickle-shaded_2.12-1.1.3.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dev.zio" name="zio-stacktracer_2.12">
+			<revision name="1.0.11" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/dev.zio/zio-stacktracer_2.12/ivy-1.0.11.xml" searched="true" original-local-location="/home/east/.ivy2/cache/dev.zio/zio-stacktracer_2.12/ivy-1.0.11.xml.original"/>
+				<caller organisation="dev.zio" name="zio_2.12" conf="compile, runtime" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="1.0.11"/>
+				<artifacts>
+					<artifact name="zio-stacktracer_2.12" type="jar" ext="jar" extra-classifier="" status="successful" details="dev.zio:zio-stacktracer_2.12:jar:1.0.11 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="46198" time="0" location="/home/east/.ivy2/maven-cache/dev/zio/zio-stacktracer_2.12/1.0.11/zio-stacktracer_2.12-1.0.11.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.15" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.15.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.15.xml.original"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="3.0.8"/>
+				<caller organisation="org.polynote" name="polynote-server_2.12" conf="test, compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.6.1"/>
+				<caller organisation="org.polynote" name="polynote-runtime_2.12" conf="compile" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.6.1"/>
+				<caller organisation="org.scalameta" name="scalameta_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.6.0"/>
+				<caller organisation="io.get-coursier" name="coursier-util_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.0.0-RC5-6"/>
+				<caller organisation="io.circe" name="circe-generic_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.14.3"/>
+				<caller organisation="org.scalacheck" name="scalacheck_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.14.0"/>
+				<caller organisation="io.circe" name="circe-parser_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.14.3"/>
+				<caller organisation="io.circe" name="circe-jawn_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.14.3"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.2.0"/>
+				<caller organisation="io.circe" name="circe-yaml-common_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.15.2"/>
+				<caller organisation="org.scalameta" name="trees_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.6.0"/>
+				<caller organisation="dev.zio" name="zio-stacktracer_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.0.11"/>
+				<caller organisation="com.github.alexarchambault" name="argonaut-shapeless_6.2_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.2.0-M11"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.11.11"/>
+				<caller organisation="io.circe" name="circe-generic-extras_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.14.3"/>
+				<caller organisation="dev.zio" name="zio-streams_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.0.11"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.9.0"/>
+				<caller organisation="io.circe" name="circe-core_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.14.7"/>
+				<caller organisation="org.scalameta" name="common_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.6.0"/>
+				<caller organisation="dev.zio" name="izumi-reflect_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.1.3"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.3.2"/>
+				<caller organisation="com.thesamet.scalapb" name="lenses_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.11.11"/>
+				<caller organisation="org.polynote" name="polynote-env_2.12" conf="compile" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.6.1"/>
+				<caller organisation="org.scalamock" name="scalamock_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.4.0"/>
+				<caller organisation="org.scodec" name="scodec-core_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.11.4"/>
+				<caller organisation="io.circe" name="circe-numbers_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.14.7"/>
+				<caller organisation="io.get-coursier" name="coursier-cache_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.0.0-RC5-6"/>
+				<caller organisation="io.get-coursier" name="coursier-core_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.0.0-RC5-6"/>
+				<caller organisation="org.scala-lang.modules" name="scala-collection-compat_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.7.0"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="3.0.8"/>
+				<caller organisation="dev.zio" name="zio_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.0.11"/>
+				<caller organisation="io.get-coursier" name="coursier_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.0.0-RC5-6"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.3.0"/>
+				<caller organisation="dev.zio" name="izumi-reflect-thirdparty-boopickle-shaded_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.1.3"/>
+				<caller organisation="io.circe" name="circe-yaml_2.12" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.15.2"/>
+				<caller organisation="org.scalameta" name="parsers_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.6.0"/>
+				<caller organisation="org.polynote" name="polynote-macros_2.12" conf="compile" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.6.1"/>
+				<caller organisation="org.scalameta" name="semanticdb-scalac-core_2.12.15" conf="default, compile, runtime, master" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="4.6.0"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.1.1"/>
+				<caller organisation="org.typelevel" name="jawn-parser_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.4.0"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.10.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.12.15"/>
+				<caller organisation="org.scodec" name="scodec-bits_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="1.1.12"/>
+				<caller organisation="org.typelevel" name="cats-kernel_2.12" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.10.0"/>
+				<caller organisation="org.polynote" name="polynote-kernel_2.12" conf="test, compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.6.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="2.12.15"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" extra-classifier="" status="successful" details="org.scala-lang:scala-library:jar:2.12.15 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="5443542" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

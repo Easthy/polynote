@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/east/prjct/polynote/polynote-server/src/main/resources/META-INF/services/polynote.server.auth.ProviderLoader,/home/east/prjct/polynote/polynote-server/target/scala-2.12/classes/META-INF/services/polynote.server.auth.ProviderLoader)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/east/prjct/polynote/polynote-server/src/main/resources/META-INF/services/polynote.server.repository.format.NotebookFormat,/home/east/prjct/polynote/polynote-server/target/scala-2.12/classes/META-INF/services/polynote.server.repository.format.NotebookFormat)[0m

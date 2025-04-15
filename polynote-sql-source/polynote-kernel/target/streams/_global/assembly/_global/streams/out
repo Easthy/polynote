@@ -1,0 +1,520 @@
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies end. Took 2 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars end. Took 1 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes end. Took 20 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries end. Took 14 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames end. Took 430 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames end. Took 4 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check end. Took 242 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mBuilding assembly jar due to changed inputs...[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) end. Took 922 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results start:[0m
+[0m[[0m[0minfo[0m] [0m[0m12 file(s) merged using strategy 'Rename' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = LICENSE_scalap-2.12.15[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scalap-2.12.15.jar, jar org = org.scala-lang, entry target = LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_redshift-jdbc42-2.1.0.9[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_guava-32.1.2-jre[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_coursier-util_2.12-2.0.0-RC5-6[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_postgresql-42.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = redshift-jdbc42-2.1.0.9.jar, jar org = com.amazon.redshift, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = guava-32.1.2-jre.jar, jar org = com.google.guava, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-util_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = postgresql-42.6.0.jar, jar org = org.postgresql, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/LICENSE_checker-qual-3.33.0.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = checker-qual-3.33.0.jar, jar org = org.checkerframework, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/licenses/com.ongres.scram/common-2.1/LICENSE_postgresql-42.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = postgresql-42.6.0.jar, jar org = org.postgresql, entry target = META-INF/licenses/com.ongres.scram/common-2.1/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/licenses/com.ongres.stringprep/stringprep-1.1/LICENSE_postgresql-42.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = postgresql-42.6.0.jar, jar org = org.postgresql, entry target = META-INF/licenses/com.ongres.stringprep/stringprep-1.1/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/licenses/com.ongres.scram/client-2.1/LICENSE_postgresql-42.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = postgresql-42.6.0.jar, jar org = org.postgresql, entry target = META-INF/licenses/com.ongres.scram/client-2.1/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/README_coursier-util_2.12-2.0.0-RC5-6.md[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-util_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/README.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/licenses/com.ongres.stringprep/saslprep-1.1/LICENSE_postgresql-42.6.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = postgresql-42.6.0.jar, jar org = org.postgresql, entry target = META-INF/licenses/com.ongres.stringprep/saslprep-1.1/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Rename[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = NOTICE_scalap-2.12.15[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scalap-2.12.15.jar, jar org = org.scala-lang, entry target = NOTICE[0m
+[0m[[0m[0minfo[0m] [0m[0m115 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-freebsd64/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-linux32/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = failureaccess-1.0.1.jar, jar org = com.google.guava, entry target = META-INF/maven/com.google.guava/failureaccess/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = guava-32.1.2-jre.jar, jar org = com.google.guava, entry target = META-INF/maven/com.google.guava/guava/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = py4j-0.10.7.jar, jar org = net.sf.py4j, entry target = META-INF/maven/net.sf.py4j/py4j/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = j2objc-annotations-2.8.jar, jar org = com.google.j2objc, entry target = META-INF/maven/com.google.j2objc/j2objc-annotations/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-windows32/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-windows64/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-linux32/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = py4j-0.10.7.jar, jar org = net.sf.py4j, entry target = META-INF/maven/net.sf.py4j/py4j/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.hawtjni/hawtjni-runtime/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = guava-32.1.2-jre.jar, jar org = com.google.guava, entry target = META-INF/maven/com.google.guava/guava/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-freebsd32/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = shapeless_2.12-2.3.2.jar, jar org = com.chuusai, entry target = shapeless/BuildInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.jline/jline-terminal-jansi/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-windows64/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-freebsd64/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-util_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.jsoup/jsoup/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = classgraph-4.8.47.jar, jar org = io.github.classgraph, entry target = META-INF/maven/io.github.classgraph/classgraph/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, jar org = com.google.guava, entry target = META-INF/maven/com.google.guava/listenablefuture/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-util_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.jsoup/jsoup/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, jar org = com.google.guava, entry target = META-INF/maven/com.google.guava/listenablefuture/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javaparser-core-3.25.5.jar, jar org = com.github.javaparser, entry target = META-INF/maven/com.github.javaparser/javaparser-core/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javaparser-core-3.25.5.jar, jar org = com.github.javaparser, entry target = META-INF/maven/com.github.javaparser/javaparser-core/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-freebsd32/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scodec-core_2.12-1.11.4.jar, jar org = org.scodec, entry target = scodec/BuildInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javassist-3.29.2-GA.jar, jar org = org.javassist, entry target = META-INF/maven/org.javassist/javassist/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = redshift-jdbc42-2.1.0.9.jar, jar org = com.amazon.redshift, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = shapeless_2.12-2.3.2.jar, jar org = com.chuusai, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = argonaut-shapeless_6.2_2.12-1.2.0-M11.jar, jar org = com.github.alexarchambault, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javaparser-core-3.25.5.jar, jar org = com.github.javaparser, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javaparser-symbol-solver-core-3.25.5.jar, jar org = com.github.javaparser, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jsr305-3.0.2.jar, jar org = com.google.code.findbugs, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = error_prone_annotations-2.18.0.jar, jar org = com.google.errorprone, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = failureaccess-1.0.1.jar, jar org = com.google.guava, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = guava-32.1.2-jre.jar, jar org = com.google.guava, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, jar org = com.google.guava, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = j2objc-annotations-2.8.jar, jar org = com.google.j2objc, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = protobuf-java-3.19.2.jar, jar org = com.google.protobuf, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = geny_2.12-0.6.5.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = sourcecode_2.12-0.3.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = lenses_2.12-0.11.11.jar, jar org = com.thesamet.scalapb, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scalapb-runtime_2.12-0.11.11.jar, jar org = com.thesamet.scalapb, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = izumi-reflect-thirdparty-boopickle-shaded_2.12-1.1.3.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = izumi-reflect_2.12-1.1.3.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = zio-stacktracer_2.12-1.0.11.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = zio-streams_2.12-1.0.11.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = zio_2.12-1.0.11.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = argonaut_2.12-6.2.3.jar, jar org = io.argonaut, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-core_2.12-0.14.7.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-generic-extras_2.12-0.14.3.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-generic_2.12-0.14.3.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-jawn_2.12-0.14.3.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-numbers_2.12-0.14.7.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-parser_2.12-0.14.3.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-yaml-common_2.12-0.15.2.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-yaml_2.12-0.15.2.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-core_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-util_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = classgraph-4.8.47.jar, jar org = io.github.classgraph, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = py4j-0.10.7.jar, jar org = net.sf.py4j, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = checker-qual-3.33.0.jar, jar org = org.checkerframework, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javassist-3.29.2-GA.jar, jar org = org.javassist, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = postgresql-42.6.0.jar, jar org = org.postgresql, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-collection-compat_2.12-2.7.0.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-java8-compat_2.12-0.9.0.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scalap-2.12.15.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = common_2.12-4.6.0.jar, jar org = org.scalameta, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = fastparse-v2_2.12-2.3.1.jar, jar org = org.scalameta, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = parsers_2.12-4.6.0.jar, jar org = org.scalameta, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scalameta_2.12-4.6.0.jar, jar org = org.scalameta, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = semanticdb-scalac-core_2.12.15-4.6.0.jar, jar org = org.scalameta, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = trees_2.12-4.6.0.jar, jar org = org.scalameta, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scodec-bits_2.12-1.1.12.jar, jar org = org.scodec, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scodec-core_2.12-1.11.4.jar, jar org = org.scodec, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = cats-core_2.12-2.10.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = cats-kernel_2.12-2.10.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jawn-parser_2.12-1.4.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = macro-compat_2.12-1.1.1.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = snakeyaml-2.2.jar, jar org = org.yaml, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = error_prone_annotations-2.18.0.jar, jar org = com.google.errorprone, entry target = META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-linux64/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-windows32/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = snakeyaml-2.2.jar, jar org = org.yaml, entry target = META-INF/maven/org.yaml/snakeyaml/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-util_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/CHANGES[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = classgraph-4.8.47.jar, jar org = io.github.classgraph, entry target = META-INF/maven/io.github.classgraph/classgraph/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.jline/jline-terminal/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = protobuf-java-3.19.2.jar, jar org = com.google.protobuf, entry target = META-INF/maven/com.google.protobuf/protobuf-java/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javaparser-symbol-solver-core-3.25.5.jar, jar org = com.github.javaparser, entry target = META-INF/maven/com.github.javaparser/javaparser-symbol-solver-core/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = classgraph-4.8.47.jar, jar org = io.github.classgraph, entry target = META-INF/versions/9/module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = snakeyaml-2.2.jar, jar org = org.yaml, entry target = META-INF/versions/9/module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = error_prone_annotations-2.18.0.jar, jar org = com.google.errorprone, entry target = META-INF/maven/com.google.errorprone/error_prone_annotations/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-native/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = redshift-jdbc42-2.1.0.9.jar, jar org = com.amazon.redshift, entry target = META-INF/SIGNER.SF[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = j2objc-annotations-2.8.jar, jar org = com.google.j2objc, entry target = META-INF/maven/com.google.j2objc/j2objc-annotations/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.hawtjni/hawtjni-runtime/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = snakeyaml-2.2.jar, jar org = org.yaml, entry target = META-INF/maven/org.yaml/snakeyaml/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = failureaccess-1.0.1.jar, jar org = com.google.guava, entry target = META-INF/maven/com.google.guava/failureaccess/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-osx/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javassist-3.29.2-GA.jar, jar org = org.javassist, entry target = META-INF/maven/org.javassist/javassist/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jsr305-3.0.2.jar, jar org = com.google.code.findbugs, entry target = META-INF/maven/com.google.code.findbugs/jsr305/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = zio_2.12-1.0.11.jar, jar org = dev.zio, entry target = zio/BuildInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jsr305-3.0.2.jar, jar org = com.google.code.findbugs, entry target = META-INF/maven/com.google.code.findbugs/jsr305/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.jline/jline-terminal/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-native/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = protobuf-java-3.19.2.jar, jar org = com.google.protobuf, entry target = META-INF/maven/com.google.protobuf/protobuf-java/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.jline/jline-terminal-jansi/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javaparser-symbol-solver-core-3.25.5.jar, jar org = com.github.javaparser, entry target = META-INF/maven/com.github.javaparser/javaparser-symbol-solver-core/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-osx/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = redshift-jdbc42-2.1.0.9.jar, jar org = com.amazon.redshift, entry target = META-INF/SIGNER.RSA[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = coursier-cache_2.12-2.0.0-RC5-6.jar, jar org = io.get-coursier, entry target = META-INF/maven/org.fusesource.jansi/jansi-linux64/pom.properties[0m
+[0m[[0m[0minfo[0m] [0m[0m2 file(s) merged using strategy 'FilterDistinctLines' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: FilterDistinctLines[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = META-INF/services/java.sql.Driver[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = redshift-jdbc42-2.1.0.9.jar, jar org = com.amazon.redshift, entry target = META-INF/services/java.sql.Driver[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = postgresql-42.6.0.jar, jar org = org.postgresql, entry target = META-INF/services/java.sql.Driver[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results end. Took 24 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged end. Took 114 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries end. Took 48 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar end. Took 4772 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar end. Took 210 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: /home/east/prjct/polynote/polynote-kernel/target/scala-2.12/polynote-kernel-assembly-0.6.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: ad5c95ec597c5517648d8bf3489d39a01e5a4b6f[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references end. Took 2 ms[0m

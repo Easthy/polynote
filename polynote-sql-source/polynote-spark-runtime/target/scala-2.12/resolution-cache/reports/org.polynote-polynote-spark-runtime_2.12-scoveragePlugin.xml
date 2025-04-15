@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.polynote"
+		module="polynote-spark-runtime_2.12"
+		revision="0.6.1"
+		conf="scoveragePlugin"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scala-doc-tool, scoveragePlugin"
+		date="20241128133813"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

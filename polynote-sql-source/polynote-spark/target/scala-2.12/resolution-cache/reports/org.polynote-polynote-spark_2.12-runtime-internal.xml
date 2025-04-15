@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.polynote"
+		module="polynote-spark_2.12"
+		revision="0.6.1"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scala-doc-tool, scoveragePlugin"
+		date="20241128134849"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.15" status="release" pubdate="19691231210000" resolver="public" artresolver="public" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="0" time="0" location="/home/east/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.15.xml" searched="true" original-local-location="/home/east/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.15.xml.original"/>
+				<caller organisation="org.polynote" name="polynote-spark_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.15" rev-constraint-default="2.12.15" rev-constraint-dynamic="2.12.15" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scala-library-2.12.15" type="jar" ext="jar" status="successful" details="org.scala-lang:scala-library:jar:2.12.15 &lt; public (https://repo1.maven.org/maven2/, sbt-plugin, releases+snapshots)" size="5443542" time="0" location="/home/east/.ivy2/maven-cache/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15.jar">
+						<origin-location is-local="true" location="public"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

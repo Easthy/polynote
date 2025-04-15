@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.polynote"
+		module="polynote-kernel_2.12"
+		revision="0.6.1"
+		status="integration"
+		publication="20241128132230"
+	>
+		<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+		<description homepage="https://polynote.org">
+		polynote-kernel
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="scala-doc-tool" visibility="private" description=""/>
+		<conf name="scoveragePlugin" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="polynote-kernel_2.12" type="pom" ext="pom" conf="pom"/>
+		<artifact name="polynote-kernel_2.12" type="jar" ext="jar" conf="compile"/>
+		<artifact name="polynote-kernel_2.12" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.15" conf="scala-tool->default,optional(default);provided->default(compile);test->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.15" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.polynote" name="polynote-runtime_2.12" rev="0.6.1" conf="provided->default(compile);test->default(compile)"/>
+		<dependency org="org.polynote" name="polynote-env_2.12" rev="0.6.1" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.8" conf="test->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.12" rev="1.14.0" conf="test->default(compile)"/>
+		<dependency org="org.typelevel" name="kind-projector_2.12" rev="0.10.3" conf="plugin->default(compile)"/>
+		<dependency org="org.scalameta" name="semanticdb-scalac-core_2.12.15" rev="4.6.0" conf="compile->default(compile)"/>
+		<dependency org="dev.zio" name="zio_2.12" rev="1.0.11" conf="compile->default(compile)"/>
+		<dependency org="dev.zio" name="zio-streams_2.12" rev="1.0.11" conf="compile->default(compile)"/>
+		<dependency org="org.scodec" name="scodec-core_2.12" rev="1.11.4" conf="compile->default(compile)"/>
+		<dependency org="io.get-coursier" name="coursier_2.12" rev="2.0.0-RC5-6" conf="compile->default(compile)"/>
+		<dependency org="io.get-coursier" name="coursier-cache_2.12" rev="2.0.0-RC5-6" conf="compile->default(compile)"/>
+		<dependency org="io.github.classgraph" name="classgraph" rev="4.8.47" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang.modules" name="scala-collection-compat_2.12" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang.modules" name="scala-java8-compat_2.12" rev="0.9.0" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-yaml_2.12" rev="0.15.2" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-generic_2.12" rev="0.14.3" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-generic-extras_2.12" rev="0.14.3" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-parser_2.12" rev="0.14.3" conf="compile->default(compile)"/>
+		<dependency org="net.sf.py4j" name="py4j" rev="0.10.7" conf="compile->default(compile)"/>
+		<dependency org="com.github.javaparser" name="javaparser-core" rev="3.25.5" conf="compile->default(compile)"/>
+		<dependency org="com.github.javaparser" name="javaparser-symbol-solver-core" rev="3.25.5" conf="compile->default(compile)"/>
+		<dependency org="org.postgresql" name="postgresql" rev="42.6.0" conf="compile->default(compile)"/>
+		<dependency org="com.amazon.redshift" name="redshift-jdbc42" rev="2.1.0.9" conf="compile->default(compile)"/>
+		<dependency org="org.scalamock" name="scalamock_2.12" rev="4.4.0" conf="test->default(compile)"/>
+		<override org="com.chuusai" module="shapeless_2.12" matcher="exact" rev="2.3.2"/>
+	</dependencies>
+</ivy-module>

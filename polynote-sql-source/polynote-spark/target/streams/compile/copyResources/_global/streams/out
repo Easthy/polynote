@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/east/prjct/polynote/polynote-spark/src/main/resources/META-INF/services/polynote.kernel.interpreter.Loader,/home/east/prjct/polynote/polynote-spark/target/scala-2.12/classes/META-INF/services/polynote.kernel.interpreter.Loader)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/east/prjct/polynote/polynote-spark/src/main/resources/META-INF/services/polynote.kernel.util.DownloadableFileProvider,/home/east/prjct/polynote/polynote-spark/target/scala-2.12/classes/META-INF/services/polynote.kernel.util.DownloadableFileProvider)[0m
