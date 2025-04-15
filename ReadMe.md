@@ -81,7 +81,8 @@ Feel free to insert this block into your README.md file!
 1. Clone this repository.
 2. Navigate to the `polynote-sql-compiled` folder and run the compiled Polynote.
 3. Modify the `config.yml` file with your database connection details.
-4. Launch Polynote and start executing SQL queries in your notebooks.
+4. Install python dependecies from the https://github.com/Easthy/polynote/blob/main/polynote-sql-compiled/requirements.txt
+5. Launch Polynote as `./poynote.py` and start executing SQL queries in your notebooks.
 
 ## Here are some screenshots showcasing the functionality of the Polynote SQL fork:
 
